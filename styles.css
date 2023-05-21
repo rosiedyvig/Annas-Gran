@@ -1,0 +1,55 @@
+html {
+  background: url(images/Background.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.game {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  height: 400px;
+  margin-top: 250px;
+  width: 350px;
+  border: solid 10px rgb(20, 95, 20);
+  border-radius: 10px;
+  flex-direction: column;
+}
+
+.heading {
+  justify-content: center;
+  align-content: center;
+}
+
+h1 {
+  justify-content: center;
+}
+
+.instance {
+  border: solid 1px blue;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3 {
+  color: green;
+  font-size: larger;
+}
+
+#useranswer {
+  height: 30px;
+  width: 200px;
+}
+
+#button {
+  border-radius: 100px;
+}
