@@ -52,6 +52,7 @@ $().ready(function () {
 
   const correctResult = function () {
     let correctbanner = $(`<p class="remove"> Correct!!!</p>`);
+
     $(".result").empty();
     $(".result").append(correctbanner);
   };
